@@ -1,0 +1,220 @@
+[
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-2650837085",
+  "source": {
+   "name": "Demo Question",
+   "showName": false,
+   "instructions": "## Reading Question\nRearrange the code blocks below to create a loop that iterates over a list and prints each element of the list. **Note**, some of the code blocks will not be used.",
+   "initial": "animals = [\"cat\", \"dog\", \"fish\", \"rabbit\"]\nfor animal in animals:\n    print(\"Animal #{} is a {}.\".format(animals.index(animal) + 1, animal))\nfor animals in animal: #distractor\nfor animal in pets: #distractor",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
+   "grader": "",
+   "guidance": "The first line needs to be the list declaration. You cannot iterate over a list that does not exist. There are three possible choices for the loop. There is no list named `pets` so that option can be ignored. The loop that says `for animals in animal:` expects there to be a list named `animal` while `animals` would represent each element in the list. The order is reversed. Don't forget to indent the print statement.\n\n```python\nanimals = [\"cat\", \"dog\", \"fish\", \"rabbit\"]\nfor animal in animals:\n    print(\"Animal #{} is a {}.\".format(animals.index(animal) + 1, animal))\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "python_demo.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "python_demo.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1981899322",
+  "source": {
+   "name": "Practice MCQ",
+   "showName": false,
+   "instructions": "## Multiple Choice Question\nFrom what TV show did Python take its name?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "448c7d4d-72d0-9b3e-3589-670669d72e51",
+     "correct": false,
+     "answer": "National Geographic"
+    },
+    {
+     "_id": "d84086ba-a7d2-a56f-5797-d25d50b7c06f",
+     "correct": true,
+     "answer": "Monty Python's Flying Circus"
+    },
+    {
+     "_id": "7a53cab5-f47f-40cb-d68d-86470ef77d54",
+     "correct": false,
+     "answer": "Snakes on a Plane"
+    },
+    {
+     "_id": "f0022a14-96e7-ace0-c96e-7ab7c6ef82f2",
+     "correct": false,
+     "answer": "Cobra Kai"
+    }
+   ],
+   "guidance": "Python took its name from Monty Python's Flying Circus.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2837664483",
+  "source": {
+   "name": "Fill in the Blank Demo Question",
+   "showName": false,
+   "instructions": "## Fill in the Blank\nFill in the blanks below.",
+   "text": "True or False: Python is a compiled language. <<<False>>>\nTrue or False: You do not use semi-colons at the end of each line of code in Python. <<<True>>>",
+   "guidance": "Python is an interpreted language.\nPython does not use semi-colons. Instead it uses whitespace.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "False",
+     "True"
+    ],
+    "text": [
+     "True or False: Python is a compiled language. ",
+     0,
+     "\nTrue or False: You do not use semi-colons at the end of each line of code in Python. ",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-21366716",
+  "source": {
+   "name": "Parsons Problem",
+   "showName": false,
+   "instructions": "## Parson's Problem\nRearrange the code blocks below into the proper order. **Note**, not all of the code blocks will be used.",
+   "initial": "The first code block\nThe second code block\nThe third code block\nI am not correct #distractor\nI am not correct #distractor",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
+   "grader": "",
+   "guidance": "The first code block\nThe second code block\nThe third code block",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-2673740583",
+  "source": {
+   "name": "standard code test demo",
+   "showName": false,
+   "instructions": "Submit your code when ready.",
+   "command": "python3 code/code_test.py",
+   "preExecuteCommand": "",
+   "guidance": "Here is one possible solution to the problem:\n\n```python\nnum = input()\ntry:\n  num = int(num)\n  print(num * 3)\nexcept ValueError:\n  print(\"Please enter an integer\")\n```\n\nRemember, do not have a string with the `input` command. This solution uses the `try/except` block to see if the user input can be typecast into an int. If yes, the program prints the user input multiplied by 3. If the typecast cannot be done, then the message `Please enter an integer` is printed.",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "3",
+     "output": "9",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "-5",
+     "output": "-15",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "abc",
+     "output": "Please enter an integer",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/code_test.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/code_test.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ }
+]
