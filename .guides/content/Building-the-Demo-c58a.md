@@ -37,7 +37,7 @@ Add the image to the guide using markdown syntax.
 Codio has syntax to add a [custom button](https://codio.com/docs/content/authoring/page-edit/buttons/) to your guide. On the previous page, the `TRY IT` button runs the command `python3 python_demo.py` and prints the output to the guide. The terminal can always be added to a panel if you would rather have students interact with the command line.
 
 ### Code Visualizer
-Codio has integrate the [Python Tutor](http://pythontutor.com/) into its platform. It works with a variety of languages (despite its name). To add a code visualizer to your guide, use the following syntax `[Code Visualizer](open_tutor your_file.py)`.
+Codio integrates [Python Tutor](http://pythontutor.com/) into its platform. It works with a variety of languages (despite its name). To add a code visualizer to your guide, use the following syntax `[Code Visualizer](open_tutor your_file.py)`.
 
 ### Code Highlighting
-You can create links that [highlight](https://codio.com/docs/content/authoring/page-edit/inline/) sections of code. It is important to note that opening a file with highlighting will retain the highlighting. Adding another like to open the same file without highlighting will "remove" the highlighting.
+You can create links that [highlight](https://codio.com/docs/content/authoring/page-edit/inline/) sections of code. It is important to note that opening a file with highlighting will retain the highlighting. Adding another link to open the same file without highlighting will "remove" the highlighting.
