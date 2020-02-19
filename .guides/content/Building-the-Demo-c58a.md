@@ -16,7 +16,7 @@ To use the code editor, add a programming file to your project. Right-click on t
 
 ![.guides/img/create_new_file](.guides/img/create_new_file.png)
 
-The next step is to load this file into a panel of your layout. Click on the gear icon again, and click on the `Open Tabs` button. You can click the button and type the file's path to add a new file to the layout. Or, you drag the file from the directory tree onto the page. There is a preview option for documents, which allows you to see the output of an HTML/CSS/JS project.
+The next step is to load this file into a panel of your layout. Click on the Guide Editor tab, click on the gear icon again, and click on the `Open Tabs` button. You can click the button and type the file's path to add a new file to the layout. Or, you can drag the file from the directory tree onto the page. 
 
 ![.guides/img/coding_file](.guides/img/coding_file.png)
 
