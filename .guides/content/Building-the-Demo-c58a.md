@@ -4,6 +4,14 @@
 
 Instruction through Codio is built around the guides feature. This is a brief description on how the demo on the previous page was built. Please see the [documentation](https://codio.com/docs/content/authoring/) for more information about content authoring with guides.
 
+||| info
+### To try this out
+You’ll need to be in Edit Mode. From the top tool bar menu, select  **Tools->Guide->Edit**.
+
+
+![.guides/img/editGuide](.guides/img/editGuide.png)
+|||
+
 ### Page Layout
 Each page in the guide can have its own layout. You can select how many panels you want, and what information goes in each panel. The most common layout is a two panels without the tree. The guide is in one panel and the code editor is in the other. Click the gear in the top-right corner of Codio. You can select the layout from here. The default layout is copy the previous page, and Codio does not close any open tabs.
 
@@ -26,7 +34,7 @@ This file will open with the guide. The file will remain opened until the studen
 Guides are authored with [markdown](https://codio.com/docs/content/authoring/page-edit/edit/), but you can use any HTML to author content. The drop-down text is an example of the `<details>` and `<summary>` tags.
 
 ### Images
-You will notice a folder called `.guides` in the directory tree. All of the information in this folder is hidden from students. There is a subfolder called `img` where you can upload any images you want to appear in the guide. Right-click on the `img` folder and select `Upload...`.
+You will notice a folder called `.guides` in the directory tree. To view the File Tree, select **View->File Tree**. All of the information in this folder is hidden from students. There is a subfolder called `img` where you can upload any images you want to appear in the guide. Right-click on the `img` folder and select `Upload...`.
 
 ![.guides/img/upload](.guides/img/upload.png)
 
