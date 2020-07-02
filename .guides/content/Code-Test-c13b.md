@@ -15,7 +15,7 @@ Write a program that takes an integer from the user. Return the number multiplie
 	<strong>Solution</strong>
 </summary>
 
-Here is one solution to the problem.
+Here is one solution to the problem. You can copy/paste it into the IDE if you would like.
 
 ```python
 num = input("Enter an integer: ")
