@@ -26,7 +26,13 @@
   {
    "id": "c58a9143-027d-0f4f-9bdd-913d73c3bdf5",
    "title": "Building the Demo",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Building-the-Demo-c58a.md",
