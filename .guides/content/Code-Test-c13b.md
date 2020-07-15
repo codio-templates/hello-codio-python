@@ -6,7 +6,7 @@ Write a program that takes an integer from the user. Return the number multiplie
 
 `Please enter an integer`
 
-**Note**, it is important that there is no string prompting the user to input a number. The string will cause the code test to fail.
+**Note**, it is important that if there is a string prompting the user to input a number, then the standard code test should search for a substring match.
 
 [Code Visualizer](open_tutor code/code_test.py)
 {try it|terminal}(python3 code/code_test.py)
