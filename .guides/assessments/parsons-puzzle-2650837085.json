@@ -1,0 +1,36 @@
+{
+	"source": {
+		"bloomsObjectiveLevel": "",
+		"grader": "",
+		"guidance": "The first line needs to be the list declaration. You cannot iterate over a list that does not exist. There are three possible choices for the loop. There is no list named `pets` so that option can be ignored. The loop that says `for animals in animal:` expects there to be a list named `animal` while `animals` would represent each element in the list. The order is reversed. Don't forget to indent the print statement.\n\n```python\nanimals = [\"cat\", \"dog\", \"fish\", \"rabbit\"]\nfor animal in animals:\n    print(\"Animal #{} is a {}.\".format(animals.index(animal) + 1, animal))\n```",
+		"initial": "animals = [\"cat\", \"dog\", \"fish\", \"rabbit\"]\nfor animal in animals:\n    print(\"Animal #{} is a {}.\".format(animals.index(animal) + 1, animal))\nfor animals in animal: #distractor\nfor animal in pets: #distractor",
+		"instructions": "## Reading Question\nRearrange the code blocks below to create a loop that iterates over a list and prints each element of the list. **Note**, some of the code blocks will not be used.",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [
+				"python_demo.py"
+			],
+			"opened": [
+				{
+					"content": "python_demo.py",
+					"panelNumber": 0,
+					"type": "file"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Parsons Puzzle"
+				}
+			]
+		},
+		"name": "Demo Question",
+		"oneTimeTest": true,
+		"options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
+		"points": 1,
+		"showGuidanceAfterResponse": true,
+		"showName": false
+	},
+	"taskId": "parsons-puzzle-2650837085",
+	"type": "parsons-puzzle"
+}

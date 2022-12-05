@@ -1,0 +1,73 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-2388134669",
+	"source": {
+		"name": "area",
+		"showName": false,
+		"instructions": "Create the function **{{func_name}}** that calculates the area of a **{{shape}}**.\n\n![image of a shape](.guides/img/{{image}})\n\nThe {{shape}} has {{description}}.",
+		"command": "python3 example.py",
+		"preExecuteCommand": "cat example.py",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": false
+		},
+		"guidance": "Here is one possible solution:\n\n```python-hide-clipboard\n{{solution_code}}\n```\n\n{{rationale}}",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "{{answer}}",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "def {{func_name}}",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				},
+				{
+					"name": "Content",
+					"value": "Parameterized"
+				},
+				{
+					"name": "Programming Language",
+					"value": "Python"
+				}
+			],
+			"files": [
+				"example.py"
+			],
+			"layout": "2-panels",
+			"opened": [
+				{
+					"type": "file",
+					"content": "example.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT-write code to determine area"
+	},
+	"linkedId": "b9c96e26-db84-4e00-b81a-659d9af2cd42",
+	"libraryId": "231155ba-4c13-4db9-bcea-bc1122241307",
+	"version": 0
+}

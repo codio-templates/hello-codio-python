@@ -1,0 +1,28 @@
+{
+	"source": {
+		"bloomsObjectiveLevel": "",
+		"grader": "1",
+		"guidance": "Here is the correct answer:\n\n```\nFirst code block\nSecond code block\nThrid code block\n```\n\nAny code blocks with the word `Distractor` should be ignored and not dragged into the box below.\n",
+		"initial": "First code block\nSecond code block\nThrid code block\nDistractor block #distractor\nDistractor block #distractor",
+		"instructions": "Drag the code blocks into the box below. Be sure that you only select the blocks you need and that they are in the proper order.",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Parsons Puzzle"
+				}
+			]
+		},
+		"name": "Parsons Problem Example",
+		"oneTimeTest": true,
+		"options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+		"points": 20,
+		"showGuidanceAfterResponse": true,
+		"showName": true
+	},
+	"taskId": "parsons-puzzle-1115584935",
+	"type": "parsons-puzzle"
+}

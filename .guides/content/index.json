@@ -1,0 +1,22 @@
+{
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideBackToDashboard": false,
+	"hideMenu": false,
+	"hideSectionsToggle": false,
+	"lexikonTopic": "",
+	"order": [
+		"Python-Demo-5eb6",
+		"Building-the-Demo-69da",
+		"Auto-Graded-Assessments-6f73",
+		"Code-Test-95ac",
+		"Parameterized-Code-Test-e06f"
+	],
+	"protectLayout": false,
+	"scripts": [],
+	"suppressPageNumbering": false,
+	"theme": "light",
+	"title": "Hello Codio in Python",
+	"useMarkAsComplete": true,
+	"useSubmitButtons": true
+}

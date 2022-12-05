@@ -1,0 +1,66 @@
+{
+	"source": {
+		"bloomsObjectiveLevel": "",
+		"command": "python3 code/code_test.py",
+		"guidance": "Here is one possible solution to the problem:\n\n```python\nnum = input()\ntry:\n  num = int(num)\n  print(num * 3)\nexcept ValueError:\n  print(\"Please enter an integer\")\n```\n\nRemember, do not have a string with the `input` command. This solution uses the `try/except` block to see if the user input can be typecast into an int. If yes, the program prints the user input multiplied by 3. If the typecast cannot be done, then the message `Please enter an integer` is printed.",
+		"instructions": "Submit your code when ready.",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [
+				"code/code_test.py"
+			],
+			"opened": [
+				{
+					"content": "code/code_test.py",
+					"panelNumber": 0,
+					"type": "file"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			]
+		},
+		"name": "standard code test demo",
+		"oneTimeTest": false,
+		"options": {
+			"ignoreCase": true,
+			"ignoreNewline": true,
+			"ignoreWhitespaces": true,
+			"matchSubstring": true,
+			"timeout": 30
+		},
+		"points": 1,
+		"preExecuteCommand": "",
+		"sequence": [
+			{
+				"arguments": "",
+				"feedback": "",
+				"input": "3",
+				"output": "9",
+				"showFeedback": false
+			},
+			{
+				"arguments": "",
+				"feedback": "",
+				"input": "-5",
+				"output": "-15",
+				"showFeedback": false
+			},
+			{
+				"arguments": "",
+				"feedback": "",
+				"input": "abc",
+				"output": "Please enter an integer",
+				"showFeedback": false
+			}
+		],
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponse": true,
+		"showName": false
+	},
+	"taskId": "code-output-compare-2673740583",
+	"type": "code-output-compare"
+}

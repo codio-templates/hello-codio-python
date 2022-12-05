@@ -3,7 +3,7 @@
 ## Auto-Graded Assessments
 Here are some quick examples of the different types of auto-graded assessments available through Codio. For a more detailed set of examples, take a look at the `Demo Guides and Assessments` project. To add an assessment, from the library or one you created yourself, click the chess piece icon at the top.
 
-![Assessments](.guides/img/assessments.png)
+![image of assessments selection screen](https://global.codio.com/content/assessments.png)
 
 ### Learning Insights
 Auto-graded assessments are linked to Codio's [Learning Insights](https://docs.codio.com/instructors/teaching/insights.html#id1) dashboard. The dashboard gives you and your students valuable feedback on performance.

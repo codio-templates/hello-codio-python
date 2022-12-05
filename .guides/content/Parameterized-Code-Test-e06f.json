@@ -1,0 +1,22 @@
+{
+	"id": "e06ffe2c-74aa-5522-7b18-39b49ce5d1d5",
+	"title": "Parameterized Code Test",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": " example.py",
+			"action": "open"
+		}
+	],
+	"layout": "2-panels",
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": false,
+	"learningObjectives": "",
+	"readOnly": false
+}
