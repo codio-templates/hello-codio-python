@@ -13,7 +13,7 @@ You’ll need to be in Edit Mode. From the top tool bar menu, select  **Tools->G
 |||
 
 ### Page Layout
-Each page in the guide can have its own layout. You can select how many panels you want, and what information goes in each panel. The most common layout is two panels without the tree. The guide is in one panel and the code editor is in the other. Click the gear in the top-right corner of Codio. You can select the layout from here. The default layout is copy the previous page, and Codio does not close any open tabs.
+Each page in the guide can have its own layout. You can select how many panels you want and what information goes in each panel. The most common layout is two panels without the tree; the guide is in one panel and the code editor is in the other. Click the **Layout** button in the top-right corner of the Codio window. You can select the layout from here. The default layout is copy the previous page, and Codio does not close any open tabs.
 
 ![Layout](.guides/img/layout.png)
 
@@ -24,7 +24,7 @@ To use the code editor, add a programming file to your project. Right-click on t
 
 ![.guides/img/create_new_file](.guides/img/create_new_file.png)
 
-The next step is to load this file into a panel of your layout. Click on the Guide Editor tab, click on the gear icon again, and click on the `Open Tabs` button. You can click the button and type the file's path to add a new file to the layout. Or, you can drag the file from the directory tree onto the page. 
+The next step is to load this file into a panel of your layout. Click on the Guide Editor tab, click the **Layout** button again, and click on the `Open Tabs` button. You can click the button and type the file's path to add a new file to the layout, or you can drag the file from the directory tree onto the page. 
 
 ![.guides/img/coding_file](.guides/img/coding_file.png)
 

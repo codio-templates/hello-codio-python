@@ -1,48 +1,53 @@
 {
 	"source": {
+		"name": "Practice MCQ",
+		"showName": false,
+		"instructions": "## Multiple Choice Question Example\nFrom which TV show did Python take its name?",
+		"multipleResponse": false,
+		"isRandomized": false,
 		"answers": [
 			{
 				"_id": "448c7d4d-72d0-9b3e-3589-670669d72e51",
-				"answer": "National Geographic",
-				"correct": false
+				"correct": false,
+				"answer": "National Geographic"
 			},
 			{
 				"_id": "d84086ba-a7d2-a56f-5797-d25d50b7c06f",
-				"answer": "Monty Python's Flying Circus",
-				"correct": true
+				"correct": true,
+				"answer": "Monty Python's Flying Circus"
 			},
 			{
 				"_id": "7a53cab5-f47f-40cb-d68d-86470ef77d54",
-				"answer": "Snakes on a Plane",
-				"correct": false
+				"correct": false,
+				"answer": "Snakes on a Plane"
 			},
 			{
 				"_id": "f0022a14-96e7-ace0-c96e-7ab7c6ef82f2",
-				"answer": "Cobra Kai",
-				"correct": false
+				"correct": false,
+				"answer": "Cobra Kai"
 			}
 		],
-		"bloomsObjectiveLevel": "",
 		"guidance": "Python took its name from Monty Python's Flying Circus.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 1,
 		"incorrectPoints": 0,
-		"instructions": "## Multiple Choice Question\nFrom what TV show did Python take its name?",
-		"learningObjectives": "",
+		"arePartialPointsAllowed": false,
 		"metadata": {
-			"files": [],
-			"opened": [],
 			"tags": [
 				{
 					"name": "Assessment Type",
 					"value": "Multiple Choice"
 				}
-			]
+			],
+			"files": [],
+			"opened": []
 		},
-		"multipleResponse": false,
-		"name": "Practice MCQ",
-		"points": 1,
-		"showExpectedAnswer": true,
-		"showGuidanceAfterResponse": true,
-		"showName": false
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
 	},
 	"taskId": "multiple-choice-1981899322",
 	"type": "multiple-choice"

@@ -1,9 +1,7 @@
 # FREEZE CODE BEGIN
-import math
+import math, sys
+num1 = int(sys.argv[1])
+num2 = int(sys.argv[2])
 # FREEZE CODE END
 
-# CODIO SOLUTION BEGIN
-
-
-
-# CODIO SOLUTION END
+# Enter your code below:

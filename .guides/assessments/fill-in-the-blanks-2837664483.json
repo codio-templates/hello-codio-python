@@ -1,26 +1,31 @@
 {
 	"source": {
-		"bloomsObjectiveLevel": "",
+		"name": "Fill in the Blank Demo Question",
+		"showName": false,
+		"instructions": "## Fill in the Blank Example\nFill in the blanks below.",
+		"showValues": true,
+		"text": "True or False: Python is a compiled language. <<<False>>>\nTrue or False: You do not use semi-colons at the end of each line of code in Python. <<<True>>>",
+		"distractors": "",
 		"guidance": "Python is an interpreted language.\nPython does not use semi-colons. Instead it uses whitespace.",
-		"instructions": "## Fill in the Blank\nFill in the blanks below.",
-		"learningObjectives": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 1,
+		"arePartialPointsAllowed": false,
 		"metadata": {
-			"files": [],
-			"opened": [],
 			"tags": [
 				{
 					"name": "Assessment Type",
 					"value": "Fill in the Blanks"
 				}
-			]
+			],
+			"files": [],
+			"opened": []
 		},
-		"name": "Fill in the Blank Demo Question",
-		"points": 1,
-		"showExpectedAnswer": true,
-		"showGuidanceAfterResponse": true,
-		"showName": false,
-		"showValues": false,
-		"text": "True or False: Python is a compiled language. \u003c\u003c\u003cFalse\u003e\u003e\u003e\nTrue or False: You do not use semi-colons at the end of each line of code in Python. \u003c\u003c\u003cTrue\u003e\u003e\u003e",
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
 		"tokens": {
 			"blank": [
 				"False",
@@ -31,7 +36,8 @@
 				0,
 				"\nTrue or False: You do not use semi-colons at the end of each line of code in Python. ",
 				0
-			]
+			],
+			"regexPositions": []
 		}
 	},
 	"taskId": "fill-in-the-blanks-2837664483",

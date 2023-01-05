@@ -4,9 +4,9 @@
 	"source": {
 		"name": "area",
 		"showName": false,
-		"instructions": "Create the function **{{func_name}}** that calculates the area of a **{{shape}}**.\n\n![image of a shape](.guides/img/{{image}})\n\nThe {{shape}} has {{description}}.",
+		"instructions": "Create the function **{{func_name}}** that calculates the area of a **{{shape}}**.\n\n![image of a shape](.guides/img/{{image}})\n\nThe {{shape}} has {{description}}. Be sure to print a function call using the variables `num1` and `num2`.",
 		"command": "python3 example.py",
-		"preExecuteCommand": "cat example.py",
+		"preExecuteCommand": "",
 		"options": {
 			"timeout": 30,
 			"ignoreCase": true,
@@ -24,16 +24,9 @@
 		"arePartialPointsAllowed": false,
 		"sequence": [
 			{
-				"arguments": "",
+				"arguments": "{{num1}} {{num2}}",
 				"input": "",
 				"output": "{{answer}}",
-				"showFeedback": false,
-				"feedback": ""
-			},
-			{
-				"arguments": "",
-				"input": "",
-				"output": "def {{func_name}}",
 				"showFeedback": false,
 				"feedback": ""
 			}
@@ -54,17 +47,17 @@
 				}
 			],
 			"files": [
-				"example.py",
+				"iteration_exercise.py",
 				".guides/img/ellipse.png",
 				".guides/img/rectangle.png",
-				".guides/img/triangle.png"
+				".guides/img/triangle.png",
+				"example.py"
 			],
 			"layout": "2-panels",
 			"opened": [
 				{
-					"content": "example.py",
 					"type": "file",
-					"panelNumber": 0
+					"content": "iteration_exercise.py"
 				}
 			]
 		},

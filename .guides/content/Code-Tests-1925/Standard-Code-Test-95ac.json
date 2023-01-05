@@ -3,26 +3,25 @@
 	"contentType": "markdown",
 	"files": [
 		{
-			"action": "close",
-			"path": "#tabs"
+			"path": "#tabs",
+			"action": "close"
 		},
 		{
-			"action": "open",
-			"panel": 0,
-			"path": "code/code_test.py"
+			"path": "code/code_test.py",
+			"action": "open"
 		},
 		{
-			"action": "open",
+			"path": "#terminal: ",
 			"panel": 1,
-			"path": "#terminal: "
+			"action": "open"
 		}
 	],
 	"id": "95acdc7c-260e-5c9b-a658-5b505ee50e29",
 	"layout": "3-cell",
 	"learningObjectives": "",
 	"path": [],
-	"reset": [],
 	"teacherOnly": false,
-	"title": "Code Test",
-	"type": "page"
+	"title": "Standard Code Test",
+	"type": "page",
+	"closeTerminalSession": true
 }
