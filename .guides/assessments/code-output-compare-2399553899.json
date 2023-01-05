@@ -47,17 +47,17 @@
 				}
 			],
 			"files": [
-				"iteration_exercise.py",
+				"example.py",
 				".guides/img/ellipse.png",
 				".guides/img/rectangle.png",
 				".guides/img/triangle.png",
-				"example.py"
+				"iteration_exercise.py"
 			],
 			"layout": "2-panels",
 			"opened": [
 				{
 					"type": "file",
-					"content": "iteration_exercise.py"
+					"content": "example.py"
 				}
 			]
 		},
