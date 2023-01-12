@@ -1,14 +1,14 @@
 ----------
 
-The **Parameterized Assessment** on this page displays the variables used for each parameter, shown with {{var}} syntax, rather than generating the values the students will see.
+The **Parameterized Assessment** allow instructors to author one question, with some randomized variables, which will then generate a large set of unique assessments.
 
->Note: to view this question from the student perspective you must first add this Starter Pack to a course (directions [here](https://docs.codio.com/instructors/setupcourses/add-remove-assignment.html#add-remove-assignment)). Then, either view it in 'Preview' mode or as a Test Student.
+>Note: to view this question from the student perspective you must first add this Starter Pack to a course (directions [here](https://docs.codio.com/instructors/setupcourses/add-remove-assignment.html#add-remove-assignment)). Then view it as a Test Student.
 
 ## Parameterized Question Example
 
 Built using a **Standard Code Test**, the question below randomly selects from two parameters: shape and dimension. It then generates a unique, auto-graded question for each student.
 
-Specifically, the variables that generate randomly for students are:
+Specifically, the variables that are generated randomly for students are:
  - Three possible shapes (rectangle, ellipse, triangle)
  - The function names, images, and area formulas corresponding to those shapes
  - Values between 1-100 for a shape's dimensions
