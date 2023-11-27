@@ -4,7 +4,7 @@
 		"showName": true,
 		"instructions": "Drag the code blocks into the box below. Be sure that you only select the blocks you need and that they are in the proper order.",
 		"initial": "First code block\nSecond code block\nThird code block\nDistractor block#distractor\nDistractor block#distractor",
-		"options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"show_feedback\":true,\"trashId\":\"sortableTrash\"}",
+		"options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":false,\"x_indent\":50,\"lang\":\"en\",\"show_feedback\":true,\"trashId\":\"sortableTrash\"}",
 		"grader": "1",
 		"guidance": "Here is the correct answer:\n\n```\nFirst code block\nSecond code block\nThird code block\n```\n\nAny code blocks with the word `Distractor` should be ignored and not dragged into the box below.\n",
 		"showGuidanceAfterResponseOption": {
