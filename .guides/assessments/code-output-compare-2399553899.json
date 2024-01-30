@@ -4,7 +4,7 @@
 	"source": {
 		"name": "area",
 		"showName": false,
-		"instructions": "Create the function **{{func_name}}** that calculates the area of a **{{shape}}**.\n\n![image of a shape](.guides/img/{{image}})\n\nThe {{shape}} has {{description}}. Be sure to print a function call using the variables `num1` and `num2`.",
+		"instructions": "Create the function **{{func_name}}** that calculates the area of a **{{shape}}**.\n\n![This will be replaced by a randomly selected image when the parameters are generated for students](.guides/img/{{image}})\n\nThe {{shape}} has {{description}}. Be sure to print a function call using the variables `num1` and `num2`.",
 		"command": "python3 example.py",
 		"preExecuteCommand": "",
 		"options": {

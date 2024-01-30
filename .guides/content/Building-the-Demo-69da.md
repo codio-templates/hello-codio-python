@@ -9,24 +9,24 @@ Instruction through Codio is built around the guides feature. This is a brief de
 You’ll need to be in Edit Mode. From the top tool bar menu, select  **Tools->Guide->Edit**.
 
 
-![.guides/img/editGuide](.guides/img/editGuide.png)
+![From the Tools menu, select Guide and then Edit](.guides/img/editGuide.png)
 |||
 
 ### Page Layout
-Each page in the guide can have its own layout. You can select how many panels you want and what information goes in each panel. The most common layout is two panels without the tree; the guide is in one panel and the code editor is in the other. Click the **Layout** button in the top-right corner of the Codio window. You can select the layout from here. The default layout is copy the previous page, and Codio does not close any open tabs.
+Each page in the guide can have its own layout. You can select how many panels you want and what information goes in each panel. The most common layout is two panels without the tree; the guide is in one panel and the code editor is in the other. Click the **Layout** button in the top-right corner of the Codio window. You can select the layout from here. The default layout is a copy of the previous page, and Codio does not close any open tabs.
 
-![Layout](.guides/img/layout.png)
+![Select 2 panels under the label "Layout"](.guides/img/layout.png)
 
 It is a good idea to explicitly state the layout you want. Closing tabs from previous pages also keeps the UI free from unnecessary clutter.
 
 ### Code Editor
 To use the code editor, add a programming file to your project. Right-click on the name of your project or book in the directory tree on the left. Select `New File...` and then type its name and file extension.
 
-![.guides/img/create_new_file](.guides/img/create_new_file.png)
+![In the New file dialog, type the name of the file you want to create under the label File Name.](.guides/img/create_new_file.png)
 
 The next step is to load this file into a panel of your layout. Click on the Guide Editor tab, click the **Layout** button again, and click on the `Open Tabs` button. You can click the button and type the file's path to add a new file to the layout, or you can drag the file from the directory tree onto the page. 
 
-![.guides/img/coding_file](.guides/img/coding_file.png)
+![The contents of the panels in the layout are displayed under the Open Tabs label](.guides/img/coding_file.png)
 
 This file will open with the guide. The file will remain opened until the student closes the tab. This is why it is a good idea to tell Codio to close any previously opened tabs when selecting the layout.
 
@@ -36,7 +36,7 @@ Guides are authored with [markdown](https://docs.codio.com/instructors/authoring
 ### Images
 You will notice a folder called `.guides` in the directory tree. To view the File Tree, select **View->File Tree**. All of the information in this folder is hidden from students. There is a subfolder called `img` where you can upload any images you want to appear in the guide. Right-click on the `img` folder and select `Upload...`.
 
-![.guides/img/upload](.guides/img/upload.png)
+![Selecting upload after ctrl-clicking or Right-clicking on the img folder.](.guides/img/upload.png)
 
 Add the image to the guide using markdown syntax.
 
