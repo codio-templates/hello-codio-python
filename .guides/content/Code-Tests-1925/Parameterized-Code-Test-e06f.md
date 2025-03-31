@@ -24,6 +24,3 @@ A comprehensive guide to authoring this content (and the pedagogical research be
 
 </details></td></tr></tbody>
 </table>
-
-
-{Check It!|assessment}(code-output-compare-2399553899)

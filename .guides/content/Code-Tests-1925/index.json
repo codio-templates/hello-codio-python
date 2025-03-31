@@ -4,7 +4,6 @@
 	"title": "Code Tests",
 	"order": [
 		"Standard-Code-Test-95ac",
-		"Advanced-Code-Test-a262",
-		"Parameterized-Code-Test-e06f"
+		"Advanced-Code-Test-a262"
 	]
 }
